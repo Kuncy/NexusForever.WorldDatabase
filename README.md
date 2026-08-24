@@ -27,6 +27,9 @@ The initial files in the repository were created with a custom tool that ingeste
 
 Each file is considered a dump, all changes reside in the same file and should be able reapplied when changes occur.
 
+Creature loot tables live under `Loot/`, split the same way. See [Loot/README.md](Loot/README.md) for the column
+conventions and the sourcing rules that apply to loot data.
+
 ### Installation
 Unlike the content found in the auth and character databases, data in the world database is not created automatically via a database migration and needs to be applied manually.  
 Run all of the SQL files found in this repository on your world database, each file is independant from one another, you can install as many or as little as you would like.
