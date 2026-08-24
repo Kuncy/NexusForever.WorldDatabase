@@ -4988,6 +4988,40 @@ INSERT INTO `entity_stats` (`Id`, `Stat`, `Value`) VALUES
     (@GUID+1, 20, 0),
     (@GUID+1, 21, 0),
     (@GUID+1, 22, 0);
+-- Vendor inventory restored from NexusForever/Obsolete/Database/Base/World.sql,
+-- legacy entity 263029 (Creature 24491).
+INSERT INTO `entity_vendor` (`id`, `buyPriceMultiplier`, `sellPriceMultiplier`) VALUES
+    (@GUID+1, 1, 1);
+INSERT INTO `entity_vendor_category` (`id`, `index`, `localisedTextId`) VALUES
+    (@GUID+1, 1, 712282),
+    (@GUID+1, 2, 712302),
+    (@GUID+1, 3, 712312),
+    (@GUID+1, 4, 712322);
+INSERT INTO `entity_vendor_item` (`id`, `index`, `categoryIndex`, `itemId`) VALUES
+    (@GUID+1, 1, 1, 13179),
+    (@GUID+1, 2, 1, 13176),
+    (@GUID+1, 3, 1, 13194),
+    (@GUID+1, 4, 1, 13188),
+    (@GUID+1, 5, 1, 13191),
+    (@GUID+1, 6, 1, 13185),
+    (@GUID+1, 7, 2, 13148),
+    (@GUID+1, 8, 2, 13151),
+    (@GUID+1, 9, 2, 13154),
+    (@GUID+1, 10, 2, 83720),
+    (@GUID+1, 11, 2, 13157),
+    (@GUID+1, 12, 2, 83721),
+    (@GUID+1, 13, 3, 13160),
+    (@GUID+1, 14, 3, 13163),
+    (@GUID+1, 15, 3, 13166),
+    (@GUID+1, 16, 3, 83722),
+    (@GUID+1, 17, 3, 13169),
+    (@GUID+1, 18, 3, 83723),
+    (@GUID+1, 19, 4, 27873),
+    (@GUID+1, 20, 4, 27875),
+    (@GUID+1, 21, 4, 27876),
+    (@GUID+1, 22, 4, 83724),
+    (@GUID+1, 23, 4, 27874),
+    (@GUID+1, 24, 4, 83725);
 -- --------------------------------------
 -- Falling Rock
 -- --------------------------------------
